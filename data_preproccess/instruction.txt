@@ -1,0 +1,15 @@
+Để xử lý dữ liệu tiếng Việt, tôi thực hiện theo các bước sau:
+1. tách câu theo dấu . : ; ! ?
+2. với mỗi câu cần loại bỏ số và dấu câu khác
+3. loại bỏ câu dưới 5 từ và lớn hơn 100 từ
+
+Tạo bộ từ điển có dấu và không dấu, tôi không tạo từ từ data trên vì có thể bao gồm các từ không phải tiếng Việt( đã thử và khó kiểm soát khi tạo).
+Thay vào đó tôi dùng danh sách từ tiếng Việt từ vietnamese-wordlist 22k:
+1. tách từ trong word list và chọn lại từ đơn 
+2. kết quả: ___ từ có dấu, ___ từ không dấu
+
+Chọn Model và so sánh:
+1. LSTM-encoder + dense layer( softmax)
+2. LSTM-encoder-decoder ( attention)
+3. Transformer
+

@@ -1,0 +1,3 @@
+Epoch,Train Loss,Val Loss,Val Accuracy,Val BLEU,VRAM (MB),Epoch Time (s)
+1,1.806,0.304,0.910,0.835,218.56,15007.65
+2,0.278,0.270,0.927,0.872,218.56,15028.77
