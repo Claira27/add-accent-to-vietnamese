@@ -88,15 +88,6 @@ Dự án này sử dụng các hàm xử lý từ cuộc thi **AIVIVN Challenge 
 ├── train&results/
 │   ├── train_lstm               # Huấn luyện mô hình LSTM, model và kết quả
 │   └── train_transformer        # Huấn luyện mô hình Transformer, model và kết quả
-├── raw data/
-│   ├─train_tieng_viet.txt       # tập hợp các câu tiếng Việt
-│   └──viet22K.txt               # hơn 22 nghìn từ vựng tiếng Việt( từ đơn và từ ghép)
-├── data/
-│   ├── source.txt               # Câu không dấu
-│   └── target.txt               # Câu có dấu (VNI)
-│   └── target_vocab.txt         # Từ vựng có dấu (VNI)
-│   └── target_vocab.txt         # Từ vựng có dấu (VNI)
-
 ```
 
 # Chạy thử với mô hình LSTM
