@@ -99,6 +99,6 @@ python test/lstm_test.py
 python test/transformer_test.py
 
 # Nhận xét
-
+LSTM đạt độ chính xác 88% với phương pháp mã hóa tiêu chuẩn, cải thiện hiệu suất 10% so với phương pháp nhúng cơ bản.
 LSTM với attention là lựa chọn hiệu quả hơn cho bài toán thêm dấu tiếng Việt với dữ liệu và tài nguyên hạn chế.
 Transformer có tiềm năng, nhưng yêu cầu huấn luyện lâu hơn và tinh chỉnh kỹ hơn.
